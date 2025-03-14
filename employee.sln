@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{35C6EE1F-740C-435F-87E7-64F5F3CCAA02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.API", "src\Employee.API\Employee.API.csproj", "{6840B2AB-E840-4DF0-B454-29639DDAFC5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A3D8075-086C-4B92-93B8-018893A5B3D9}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BF776F41-12CF-40BF-9186-63D793927235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.Test", "Employee.Test\Employee.Test.csproj", "{D6385BCC-A7A4-4F27-BE5D-C913474A10E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6840B2AB-E840-4DF0-B454-29639DDAFC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6840B2AB-E840-4DF0-B454-29639DDAFC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6840B2AB-E840-4DF0-B454-29639DDAFC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6840B2AB-E840-4DF0-B454-29639DDAFC5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6385BCC-A7A4-4F27-BE5D-C913474A10E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6385BCC-A7A4-4F27-BE5D-C913474A10E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6385BCC-A7A4-4F27-BE5D-C913474A10E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6385BCC-A7A4-4F27-BE5D-C913474A10E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6840B2AB-E840-4DF0-B454-29639DDAFC5E} = {35C6EE1F-740C-435F-87E7-64F5F3CCAA02}
+		{D6385BCC-A7A4-4F27-BE5D-C913474A10E9} = {BF776F41-12CF-40BF-9186-63D793927235}
+	EndGlobalSection
+EndGlobal
